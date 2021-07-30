@@ -8,7 +8,7 @@ import '../App.css';
 const UserCard = ({ user }) => {
     return (
     <div className='col-md-4 mt-3'>        
-        <div className='card' style={{ width: '18rem;' }}>
+        <div className='card' style={{ width: '18rem' }}>
             <img src={profileImage} className='card-img-top' alt='profile'  />
             <div className='card-body'>
                 <h5 className='card-title'>{user.name}</h5>
